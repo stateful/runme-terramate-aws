@@ -3,7 +3,7 @@ globals "terraform" {
 }
 
 globals "terraform" "backend" {
-  bucket = "runme-terramate-aws-tfstate2"
+  bucket = "runme-terramate-aws-tfstate"
   region = "us-east-1"
 }
 
