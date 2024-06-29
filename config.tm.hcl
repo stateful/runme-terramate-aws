@@ -3,13 +3,13 @@ globals "terraform" {
 }
 
 globals "terraform" "backend" {
-  bucket = "terramate-example-terraform-state-backend"
+  bucket = "runme-terramate-aws-tfstate"
   region = "us-east-1"
 }
 
 globals "aws" "oidc" {
   github_repositories = [
-    "terramate-io/terramate-quickstart-aws",
+    "stateful/runme-terramate-aws",
     # "another-org/another-repo:ref:refs/heads/main",
   ]
 }
