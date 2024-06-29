@@ -50,7 +50,6 @@ account or organization you manage, and let's get started.
 Ensure you have the following prerequisites set up by running the commands below:
 
 1. Install asdf: Follow the [official guide](https://asdf-vm.com/guide/getting-started.html).
-
 2. Install required `asdf` plugins for Terramate and Terraform:
 
 ```bash {"id":"01J1JT8YYGYKVJRHBD9XHKB0DM"}
@@ -63,7 +62,6 @@ asdf install
 3. *(Optional)* If you need to create a Terraform State Bucket and Workload Identity Provider, you need to configure your AWS
    credentials using one of the supported [authentication mechanisms](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication-and-configuration).
    (We recommend you use [aws-vault](https://github.com/99designs/aws-vault) for secure authentication.)
-
 4. *(Optional)* Install [pre-commit](https://pre-commit.com/) hooks
 
 We recommend installing the pre-commit hooks in this repository to enable a seamless development flow. The hooks guarantee
