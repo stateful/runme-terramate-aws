@@ -115,7 +115,7 @@ Because we run the command without specifying the [context](https://terramate.io
 To deploy the generated resources to AWS, use the following commands:
 
 ```bash {"id":"01J1JT8YYGYKVJRHBDA4CX847T"}
-terramate run -C _bootstrap terraform init
+terramate run -C _bootstrap terraform init -reconfigure
 ```
 
 ```bash {"id":"01J1JTDAV2NGS9KWSF28BPGGTP"}
