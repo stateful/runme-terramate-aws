@@ -5,7 +5,7 @@ resource "aws_kms_key" "state-bucket-key" {
   description             = "This key is used to encrypt bucket objects"
 }
 resource "aws_s3_bucket" "state-bucket" {
-  bucket              = "runme-terramate-aws-tfstate"
+  bucket              = "runme-terramate-aws-tfstate2"
   object_lock_enabled = true
   tags = {
     Name = "S3 Remote Terraform State Store"
